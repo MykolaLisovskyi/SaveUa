@@ -1,0 +1,568 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" lang="ua">
+
+<head>
+  <meta charset="utf-8">
+  <title>SAVE UA</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../css/reset.css">
+  <!--  <link rel="stylesheet" href="../css/main.css">-->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/humburger.css">
+
+  <link rel="stylesheet" href="../dist/css/dd.css?v=4.0">
+  <link rel="stylesheet" type="text/css" href="../dist/css/flags.css?v=1.0"/>
+
+  <meta name="theme-color" content="#fafafa">
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+  <link rel="stylesheet" href="../js/assets/css/itc-slider.css">
+  <!-- JavaScript -->
+  <script src="../js/assets/js/itc-slider.js" defer></script>
+
+
+</head>
+
+<body>
+<header class="header_donate">
+  <div class="header_nav_wrapper_donate">
+    <nav class="header_nav_donate">
+
+      <ul class="header_list">
+        <li class="header_item_grid">
+          #Aidtoukraine
+        </li>
+        <li class="header_item">
+          <a href="../ua/index.html#about" class="header_link">Про нас</a>
+        </li>
+        <li class="header_item">
+          <a href="../ua/index.html#success" class="header_link">Звіт</a>
+        </li>
+        <li class="header_item">
+          <a href="../ua/index.html#teamdId" class="header_link">Наша команда</a>
+        </li>
+        <li class="header_item">
+          <a href="../ua/index.html#footer_block" class="header_link">Зв’яжіться з нами</a>
+        </li>
+        <li class="header_item_lang">
+
+          <div id="select__wrapper">
+            <button id="select__buttons">
+              <img src="../img/svg/select_icon_ua.svg"/>
+              <div id="pointer-down" class="pointer-down"></div>
+            </button>
+            <ul id="select__languages">
+              <a href="../eng/index.html">
+                <img src="../img/svg/select_icon_eng.svg"/>
+              </a>
+            </ul>
+          </div>
+          <div class="menu">
+            <content>
+              <input id="hamburger" class="hamburger" type="checkbox" />
+              <label class="hamburger" for="hamburger">
+                <i></i>
+                <text>
+                </text>
+              </label>
+              <section class="drawer-list" id="menu2">
+                <ul>
+                  <input id="hamburger" class="hamburger" type="checkbox" />
+
+                  <li class="header_item">
+                    <a href="../ua/index.html#about" class="header_link">Про нас</a>
+                  </li>
+                  <li class="header_item">
+                    <a href="../ua/index.html#success" class="header_link">Звіт</a>
+                  </li>
+                  <li class="header_item">
+                    <a href="../ua/index.html#teamdId" class="header_link">Наша команда</a>
+                  </li>
+                  <li class="header_item">
+                    <a href="../ua/index.html#email_block" class="header_link">Зв’яжіться з нами</a>
+                  </li>
+    
+                  <li><a id="yakor" href="../ua/index.html#about" onclick="document.getElementById('hamburger').checked=false;">Про нас</a></li>
+                  <li><a id="yakor" href="../ua/index.html#success" onclick="document.getElementById('hamburger').checked=false;">Звіт</a></li>
+                  <li><a id="yakor" href="../ua/index.html#teamdId" onclick="document.getElementById('hamburger').checked=false;">Наша команда</a></li>
+                  <li><a id="yakor" href="../ua/index.html#email_block" onclick="document.getElementById('hamburger').checked=false;">Зв'яжіться з нами</a></li>
+                  <li>
+                    <div class="header_item_donate donate_mob">
+                      <div class="header_item_donate_button">
+                        <a href="donate.html" class="header_item_donate_button_link">Донат</a>
+                      </div>
+                    </div>
+                  </li>
+                 
+    
+                </ul>
+    
+    
+    
+    
+    
+    
+    
+              </section>
+            </content>
+          </div>
+
+
+          <script defer>
+            const select = document.getElementById('select__languages');
+            const button = document.getElementById('select__buttons');
+            button.addEventListener('click', () => {
+              event.stopPropagation();
+              select.classList.toggle('select__visible');
+            });
+            window.addEventListener('click', (event) => {
+              select.classList.contains('select__visible') && select.classList.remove('select__visible');
+            });
+          </script>
+
+        </li>
+
+        <div class="header_item_donate donate_pc">
+          <div class="header_item_donate_button">
+            <a href="#!" class="header_item_donate_button_link">Донат</a>
+          </div>
+        </div>
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="main">
+  <div class="main2">
+    <div class="wrapper">
+      <div class="donate_main">
+        <div class="donate_left_box">
+          <div class="donate_left_box_content">
+            <h2>Оберіть напрям донату </h2>
+            <div class="donate_left_box_button">
+              <a class="donate_left_box_button_link" target="_blank" href="https://send.monobank.ua/jar/5cxRaVNH55">донат
+                картою</a>
+            </div>
+            <div class="donate_left_box_button">
+              <a class="donate_left_box_button_link" target="_blank"
+                 href="https://www.paypal.com/donate/?hosted_button_id=97E3X9J84BZRQ">донат paypal</a>
+            </div>
+            <div class="donate_left_box_button">
+              <a class="donate_left_box_button_link" href="#kanevalus">донат криптою</a>
+            </div>
+          </div>
+        </div>
+        <div class="donate_right_box">
+          <div class="donate_right_box_content">
+            "БО “БЛАГОДІЙНИЙ ФОНД “СЕЙВ ЮА”<br><br>
+
+            ЄДРПОУ: 44742660<br><br>
+
+            Адреса:<br>
+            Україна, 03039, м. Київ, пр. Голосіївський 25<br><br>
+
+            Реєстраційний номер:<br>
+            100068102000063122
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="footer donate_fot">
+  <div class="footer_donate">
+    <div class="wrapper">
+      <div class="footer_block_donate" id="footer_block">
+  <!--        footer_block_logo start-->
+  <div class="footer_block_logo">
+    <img src="../img/footer_logo.png" class="footer_logo">
+  </div>
+  <!--        footer_block_logo end-->
+
+  <!--        footer_block_social start-->
+  <div class="footer_block_social">
+    <h3>Контакти</h3>
+    <a href="https://www.instagram.com/saveua.fund" target="_blank">
+      <img src="../img/svg/footer_intagram.svg">
+    </a>
+    <a href="https://www.facebook.com/saveua.fund" target="_blank">
+      <img src="../img/svg/footer_facebook.svg">
+    </a>
+    <div class="footer_block_social_email">
+      <img src="../img/svg/footer_gmail.svg">
+      <div class="email_saveua">sendamessage@saveua.fund</div>
+    </div>
+  </div>
+  <!--        footer_block_social end-->
+
+  <!--        footer_block_support start-->
+  <div class="footer_block_support">
+    <h3>підтримати проект</h3>
+    <a href="https://www.paypal.com/donate/?hosted_button_id=97E3X9J84BZRQ" target="_blank">
+      <img src="../img/svg/PayPal.svg">
+    </a>
+
+    <a href="https://send.monobank.ua/jar/5cxRaVNH55" target="_blank">
+      <img src="../img/svg/Monobank.svg">
+    </a>
+
+
+
+  </div>
+  <!--        footer_block_support end-->
+
+
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+<div class="konsekudag">
+  <div class="kanevalus" id="kanevalus">
+
+    <div class="vepuvakus-davnusen">
+
+      <div class="kanevalustext">
+        <h1>Задонатити у криптовалюті</h1>
+        <div class="crypto_container">
+
+          <div class="crypto_container_left">
+
+            <div class="crypto_container_item">
+              <div class="crypto_container_item_left">
+                <img src="../img/crypto/image11.png">
+                <div class="crypto_container_item_text">
+                  USDT (ERC20)<br>
+                  <p id="copyCrypto1">0xaFDc28C2cFc5fA3610fc6d1dfb42F6C5fB10d3b9-1</p>
+                </div>
+              </div>
+              <div class="crypto_container_item_right">
+                <img src="../img/crypto/copy_icon.png" onclick="copyToClipboard1()">
+              </div>
+              <script>
+                function copyToClipboard1() {
+                  const str = document.getElementById('copyCrypto1').innerText;
+                  const el = document.createElement('textarea');
+                  el.value = str;
+                  el.setAttribute('readonly', '');
+                  el.style.position = 'absolute';
+                  el.style.left = '-9999px';
+                  document.body.appendChild(el);
+                  el.select();
+                  document.execCommand('copy');
+                  document.body.removeChild(el);
+                }
+              </script>
+            </div>
+
+            <div class="crypto_container_item">
+              <div class="crypto_container_item_left">
+                <img src="../img/crypto/image%2012.png">
+                <div class="crypto_container_item_text">
+                  USDT (ERC20)<br>
+                  <p id="copyCrypto2">0xaFDc28C2cFc5fA3610fc6d1dfb42F6C5fB10d3b9-2</p>
+                </div>
+              </div>
+              <div class="crypto_container_item_right">
+                <img src="../img/crypto/copy_icon.png" onclick="copyToClipboard2()">
+              </div>
+              <script>
+                function copyToClipboard2() {
+                  const str = document.getElementById('copyCrypto2').innerText;
+                  const el = document.createElement('textarea');
+                  el.value = str;
+                  el.setAttribute('readonly', '');
+                  el.style.position = 'absolute';
+                  el.style.left = '-9999px';
+                  document.body.appendChild(el);
+                  el.select();
+                  document.execCommand('copy');
+                  document.body.removeChild(el);
+                }
+              </script>
+            </div>
+
+            <div class="crypto_container_item">
+              <div class="crypto_container_item_left">
+                <img src="../img/crypto/image%2013.png">
+                <div class="crypto_container_item_text">
+                  USDT (ERC20)<br>
+                  <p id="copyCrypto3">0xaFDc28C2cFc5fA3610fc6d1dfb42F6C5fB10d3b9-3</p>
+                </div>
+
+              </div>
+              <div class="crypto_container_item_right">
+                <img src="../img/crypto/copy_icon.png" onclick="copyToClipboard3()">
+              </div>
+              <script>
+                function copyToClipboard3() {
+                  const str = document.getElementById('copyCrypto3').innerText;
+                  const el = document.createElement('textarea');
+                  el.value = str;
+                  el.setAttribute('readonly', '');
+                  el.style.position = 'absolute';
+                  el.style.left = '-9999px';
+                  document.body.appendChild(el);
+                  el.select();
+                  document.execCommand('copy');
+                  document.body.removeChild(el);
+                }
+              </script>
+            </div>
+
+            <div class="crypto_container_item">
+              <div class="crypto_container_item_left">
+                <img src="../img/crypto/image%2018.png">
+                <div class="crypto_container_item_text">
+                  USDT (ERC20)<br>
+                  <p id="copyCrypto4">0xaFDc28C2cFc5fA3610fc6d1dfb42F6C5fB10d3b9-4</p>
+                </div>
+
+              </div>
+              <div class="crypto_container_item_right">
+                <img src="../img/crypto/copy_icon.png" onclick="copyToClipboard4()">
+              </div>
+              <script>
+                function copyToClipboard4() {
+                  const str = document.getElementById('copyCrypto4').innerText;
+                  const el = document.createElement('textarea');
+                  el.value = str;
+                  el.setAttribute('readonly', '');
+                  el.style.position = 'absolute';
+                  el.style.left = '-9999px';
+                  document.body.appendChild(el);
+                  el.select();
+                  document.execCommand('copy');
+                  document.body.removeChild(el);
+                }
+              </script>
+            </div>
+
+            <div class="crypto_container_item">
+              <div class="crypto_container_item_left">
+                <img src="../img/crypto/image%2020.png">
+                <div class="crypto_container_item_text">
+                  USDT (ERC20)<br>
+                  <p id="copyCrypto5">0xaFDc28C2cFc5fA3610fc6d1dfb42F6C5fB10d3b9-5</p>
+                </div>
+
+              </div>
+              <div class="crypto_container_item_right">
+                <img src="../img/crypto/copy_icon.png" onclick="copyToClipboard5()">
+              </div>
+              <script>
+                function copyToClipboard5() {
+                  const str = document.getElementById('copyCrypto5').innerText;
+                  const el = document.createElement('textarea');
+                  el.value = str;
+                  el.setAttribute('readonly', '');
+                  el.style.position = 'absolute';
+                  el.style.left = '-9999px';
+                  document.body.appendChild(el);
+                  el.select();
+                  document.execCommand('copy');
+                  document.body.removeChild(el);
+                }
+              </script>
+            </div>
+
+          </div>
+
+          <div class="crypto_container_right">
+
+            <div class="crypto_container_item">
+              <div class="crypto_container_item_left">
+                <img src="../img/crypto/image%2012%20(1).png">
+                <div class="crypto_container_item_text">
+                  USDT (ERC20)<br>
+                  <p id="copyCrypto6">0xaFDc28C2cFc5fA3610fc6d1dfb42F6C5fB10d3b9-6</p>
+                </div>
+
+              </div>
+              <div class="crypto_container_item_right">
+                <img src="../img/crypto/copy_icon.png" onclick="copyToClipboard6()">
+              </div>
+              <script>
+                function copyToClipboard6() {
+                  const str = document.getElementById('copyCrypto6').innerText;
+                  const el = document.createElement('textarea');
+                  el.value = str;
+                  el.setAttribute('readonly', '');
+                  el.style.position = 'absolute';
+                  el.style.left = '-9999px';
+                  document.body.appendChild(el);
+                  el.select();
+                  document.execCommand('copy');
+                  document.body.removeChild(el);
+                }
+              </script>
+            </div>
+
+            <div class="crypto_container_item">
+              <div class="crypto_container_item_left">
+                <img src="../img/crypto/image%2015.png">
+                <div class="crypto_container_item_text">
+                  USDT (ERC20)<br>
+                  <p id="copyCrypto7">0xaFDc28C2cFc5fA3610fc6d1dfb42F6C5fB10d3b9-7</p>
+                </div>
+
+              </div>
+              <div class="crypto_container_item_right">
+                <img src="../img/crypto/copy_icon.png" onclick="copyToClipboard7()">
+              </div>
+              <script>
+                function copyToClipboard7() {
+                  const str = document.getElementById('copyCrypto7').innerText;
+                  const el = document.createElement('textarea');
+                  el.value = str;
+                  el.setAttribute('readonly', '');
+                  el.style.position = 'absolute';
+                  el.style.left = '-9999px';
+                  document.body.appendChild(el);
+                  el.select();
+                  document.execCommand('copy');
+                  document.body.removeChild(el);
+                }
+              </script>
+            </div>
+
+            <div class="crypto_container_item">
+              <div class="crypto_container_item_left">
+                <img src="../img/crypto/image%2014.png">
+                <div class="crypto_container_item_text">
+                  USDT (ERC20)<br>
+                  <p id="copyCrypto8">0xaFDc28C2cFc5fA3610fc6d1dfb42F6C5fB10d3b9-8</p>
+                </div>
+
+              </div>
+              <div class="crypto_container_item_right">
+                <img src="../img/crypto/copy_icon.png" onclick="copyToClipboard8()">
+              </div>
+              <script>
+                function copyToClipboard8() {
+                  const str = document.getElementById('copyCrypto8').innerText;
+                  const el = document.createElement('textarea');
+                  el.value = str;
+                  el.setAttribute('readonly', '');
+                  el.style.position = 'absolute';
+                  el.style.left = '-9999px';
+                  document.body.appendChild(el);
+                  el.select();
+                  document.execCommand('copy');
+                  document.body.removeChild(el);
+                }
+              </script>
+            </div>
+
+            <div class="crypto_container_item">
+              <div class="crypto_container_item_left">
+                <img src="../img/crypto/image%2017.png">
+                <div class="crypto_container_item_text">
+                  USDT (ERC20)<br>
+                  <p id="copyCrypto9">0xaFDc28C2cFc5fA3610fc6d1dfb42F6C5fB10d3b9-9</p>
+                </div>
+
+              </div>
+              <div class="crypto_container_item_right">
+                <img src="../img/crypto/copy_icon.png" onclick="copyToClipboard9()">
+              </div>
+              <script>
+                function copyToClipboard9() {
+                  const str = document.getElementById('copyCrypto9').innerText;
+                  const el = document.createElement('textarea');
+                  el.value = str;
+                  el.setAttribute('readonly', '');
+                  el.style.position = 'absolute';
+                  el.style.left = '-9999px';
+                  document.body.appendChild(el);
+                  el.select();
+                  document.execCommand('copy');
+                  document.body.removeChild(el);
+                }
+              </script>
+            </div>
+
+            <div class="crypto_container_item">
+              <div class="crypto_container_item_left">
+                <img src="../img/crypto/image%2016.png">
+                <div class="crypto_container_item_text">
+                  USDT (ERC20)
+                  <p id="copyCrypto10">0xaFDc28C2cFc5fA3610fc6d1dfb42F6C5fB10d3b9</p>
+                </div>
+              </div>
+              <div class="crypto_container_item_right">
+                  <img src="../img/crypto/copy_icon.png" onclick="copyToClipboard10()">
+              </div>
+              <script>
+                function copyToClipboard10() {
+                  const str = document.getElementById('copyCrypto10').innerText;
+                  const el = document.createElement('textarea');
+                  el.value = str;
+                  el.setAttribute('readonly', '');
+                  el.style.position = 'absolute';
+                  el.style.left = '-9999px';
+                  document.body.appendChild(el);
+                  el.select();
+                  document.execCommand('copy');
+                  document.body.removeChild(el);
+                }
+              </script>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <a class="kuchayevsena" href="#">X</a>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+  <script src="../js/plugins.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/script.js"></script>
+  <script src="new/contactform.js"></script>
+
+  <script src="../js/index.min.js"></script>
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

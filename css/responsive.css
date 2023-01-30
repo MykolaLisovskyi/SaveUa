@@ -1,0 +1,855 @@
+@media screen and (max-width: 1360px) {
+    .intro, .about, .slider, .success,.vepuvakus-davnusen, .team, .document,.konsekudag,.crypto_container, .for_document_block,.footer_donate, .tiny_slider_container, #tiny_slider, .main2 , .main2 .wrapper, .email_form .wrapper, footer, .footer_block{
+  width: 100% !important;
+    }
+    .wrapper,.success, .document, .tiny_slider_container, #tiny_slider, .email_form, footer{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .donate_fot{
+        padding-left:0px !important;
+        padding-right: 0px !important;
+    }
+    .footer_donate, .crypto_container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+   .about_main,.success{
+    min-width: 0px !important;
+   }
+   .crypto_container_left, .crypto_container_right{
+    margin:0px;
+    width: max-content;
+width: 48%;
+   }
+   .crypto_container_item{
+    
+   }
+   .crypto_container_item_left img{
+width: 50px;
+object-fit: contain;
+   }
+   
+   .crypto_container_left{
+    margin-right: 10px;
+   }
+   .crypto_container_item_text{
+    font-size: 18px !important;
+
+   }
+   .kanevalus{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+   }
+   .konsekudag{
+    display: flex;
+    place-content: center;
+   }
+   .for_slider{
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+   .slider_content{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    place-items: center;
+   }
+   .slider_content_right{
+    width: 50%;
+    margin-left:0px
+   }
+   .slider_content_left{
+    width: 45%;
+   }
+   .wrapperSlider{
+    padding:0px !important;
+   }
+    .document .wrapper, .email_form .wrapper, footer .wrapper{
+        padding:0px !important
+    }
+    .email_form_wrapper{
+        width: 100%;
+    }
+    .header_nav{
+        max-width: 100%;
+    }
+    .header_nav_wrapper_donate{
+        justify-content: center;
+    }
+    .header_nav{
+        display: flex;
+        width: 100%;
+        place-content: center;
+        place-items: center;
+        place-self: center;
+    }
+    .donate_left_box{
+        display: flex;
+        place-content: center;
+        padding-left: 0px !important;    }
+        .donate_right_box_content{
+            margin-left: 20px !important;
+        }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .header_item_lang{
+        padding-left: 0px !important;
+    }
+    .header_nav_donate #select__wrapper{
+        margin-right: 65px !important;
+   
+    }
+    .header_nav_donate{
+        width: 100%;
+        height: 84px !important;
+        background: #2860CA !important;
+        border-radius: 100px !important;
+        margin-top: 0px !important;
+        padding-top: 32px !important;
+        border-radius: 0px !important;
+    }
+    .kanevalustext{
+        padding:0px 20px;
+    }
+    .kanevalus{
+        top: 20px;
+        margin-top: 0px;
+    }
+    .vepuvakus-davnusen{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding:20px
+    }
+    .kanevalustext h1{
+margin-left: 0px !important;
+margin-bottom: 20PX;
+text-align: center;
+font-size: 22px;
+    }
+    .crypto_container_left, .crypto_container_right{
+        width: 100%;
+    }
+    .kuchayevsena{
+        right: 10px;
+        top: 10px;
+    }
+    .crypto_container_item_text{
+        padding-top: 10px;
+    }
+    .crypto_container_item_left{
+        height: auto;
+width: 100%;
+    }
+}
+  @media screen and (max-width: 1100px) {
+    .wrapper_intro_bar{
+      height: 100%;
+    }
+    .header_logo_pic{
+      height: auto;
+      width: auto;
+    }
+    .mobile{
+      max-width: 470px;
+      margin:0 auto;
+      width: 100%;
+    }
+    .intro_left_bar{
+      width: 50%;
+      max-width: none;
+    }
+    .intro_right_bar{
+      width: 50% !important;
+      place-self: center;
+      position: relative;
+      max-width: none;
+      height: 100% !important;
+      place-items: center;
+      display: flex;
+      margin-left: 15px;
+    }
+    .trident_logo{
+      position: relative;
+    }
+    .header_logo_pic{
+      height: 100% !important;
+      width: 100% !important;
+    }
+    .slider_content{
+flex-flow: column;
+margin-top: 0px;
+    }
+    .slider_content_right{
+        width: 100%;
+        margin-top:30px;
+        max-width: 550px;
+    }
+    .slider_content_left{
+        width: 550px;
+        width: 100%;
+        margin-left: 0px;
+        max-width: 550px;
+        padding-top: 60px;
+    }
+
+    .slider_content_left h2{
+    padding-left: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+    .slider_content_left_main_text{
+        width: 550px;
+        width: 100%;
+        margin-left: 0px;
+        max-width: 550px;
+        text-align: justify;
+    }
+    .help_fond_button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slider_content_button{
+        margin-left: 0px;
+        margin-top: 20px;
+        padding-bottom: 60px;
+    }
+    .slider{
+        margin-top: 50px;
+    }
+    .success li{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .footer_block{
+display: grid;
+grid-template-columns: 240px 320px;
+justify-content: space-around;
+gap: 50px 25px;
+    }
+    .header_item{
+        display: none;
+    }
+    .header_nav_wrapper{
+        width: 100%;
+    }
+    .donate_pc{
+        display: none;
+    }
+    .header_list{
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        padding-left: 0px;
+    }
+    #select__wrapper {
+margin-right: 65px;
+    }
+.header_list{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+.header_item_grid{
+    padding-right: 0px;
+}
+.header_nav{
+    height: 45px;
+    background: #2860CA;
+    border-radius: 100px;
+    margin-top: 30px;
+    padding-top: 0px;
+}
+.crypto_container{
+    display: flex;
+    flex-flow: column;
+}
+.crypto_container_left{
+    margin-right: 0px;
+}
+.kanevalus{
+    position: absolute;
+}
+
+.crypto_container_item_text p{
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    word-break: break-all;
+}
+  }
+  @media screen and (max-width: 1000px) {
+.boxErr{
+    justify-content: flex-start;
+}
+.name_block{
+    flex-flow: column;
+}
+.email_form_wrapper{
+    height: 100%;
+    padding-bottom: 45px;
+    border-radius: 20px;
+}
+.email_form{
+    margin-top: 60px;
+}
+.email_form input.name, .email_form input.number, .email_form textarea.message, .firstname{
+    width: 100%;
+}
+.email_form_wrapper{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#formId, .email_form h2{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 574px;
+    width: 100%;
+}
+.donate_main{
+    flex-flow: column;
+    display: flex;
+    place-content: center;
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    place-items: center;
+}
+.donate_right_box_content{
+    margin-left: 0px !important;
+}
+  }
+  @media screen and (max-width: 900px) {
+    .our_help_section_img{
+    display: grid;
+    gap: 25px 20px;
+    grid-template-columns: 150px 150px;
+    justify-content: space-around;
+    }
+    .about {
+min-height: 1800px;
+    }
+    .our_help_section_item{
+        display: flex;
+        flex-flow: column;
+        place-items: center;
+    }
+    .our_help_section_img {
+padding-top: 50px;
+    }
+    .our_help_section_item p {
+        font-size: 28px;
+    }
+    .our_help_section_item img{
+        margin-bottom: 20px;
+    }
+    .slider_content{
+        margin-top: -330px;
+    }
+    .wrapperSlider{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .success{
+        border-radius: 0px 0px 40px 40px;
+    }
+    .success_list{
+        flex-flow: column;
+    }
+    .success_list_block1, .success_list_block2{
+        width: 100%;
+    }
+    .success li{
+        margin-bottom: 25px;
+        gap: 32px;
+        padding-left:0px;
+    }
+    .success_wrapper{
+    padding-bottom: 30px;
+    padding-top: 470px !important;
+    }
+    .success_list_header h3{
+        font-size: 28px;
+        line-height: 28px;
+        text-align: center;
+    margin-bottom: 30px;
+    }
+    .team_info{
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .team_info_left{
+        display: flex;
+        flex-flow: column;
+        place-content: center;
+        place-items: center;
+    height: max-content;
+    margin: 0px !important;
+    }
+
+    .team_main_block{
+        height: 100%;
+    }
+
+    .team_info_right p{
+        position: relative;
+
+    }
+    .team_info_right p span{
+    }
+    .team_info_right{
+        margin-top: 20px;
+        padding-right: 0px !important;
+        margin-right: 0px !important;
+    }
+    .team_info_right p{
+        padding-right: 0px !important;
+    }
+
+    .team_info{
+        padding:0px 15px;
+    }
+
+    .team_instagram {
+        /* position: relative; */
+        margin-left: 795px;
+        bottom: 0px;
+        width: 40px;
+        height: 40px;
+        bottom: 0px;
+    right: 20px;
+    position: absolute;
+    }
+
+    .for_document_block{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        column-gap: 0px
+    }
+    .document_block{
+        display: flex;
+        place-content: center;
+        place-items: center;
+    padding: 10px 20px; 
+    flex-flow: column;
+    }
+    .document_block a{
+margin-top: 25px;
+    }
+    .for_document_block{
+    border-radius: 20px;
+    gap: 0px 20px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+padding: 60px 20px; 
+height: 100%;
+}
+  .document .wrapper{
+    padding: 0px 20px;
+
+  }
+  .document_block img{
+    height: auto;
+    max-width: 100%;
+  }
+  .small{
+    height: auto;
+  }
+  .footer_donate{
+    height: 100%;
+  }
+  .footer_block_donate{
+    flex-flow: column;
+    width: 100%;
+    max-width: 320px;
+    place-self: center;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 40px 0px;
+  }
+  .footer_block_social img{
+    margin-bottom: 0px;
+    margin-right: 15px;
+  }
+  
+}
+
+  @media screen and (max-width: 800px) {
+.about_section_right, .goal_section_right{
+    font-size: 18px;
+    line-height: 25px;
+}
+.about_section_left2,.goal_section_left2, .our_help_section_left2{
+    place-content: flex-start !important;
+}
+.about_section_left1, .about_section_left2, .goal_section_left1, .goal_section_left2{
+    font-size: 28px;
+    place-content: center;
+    display: flex;
+    place-items: center;
+    padding-top: 0px !important;
+}
+
+.about_section_right{
+margin-left: 10px;
+}
+.goal_section_right{
+margin-left: 58px;
+}
+  }
+  @media screen and (max-width: 700px) {
+    .about{
+        padding-top: 50px;
+    }
+  .pc{
+    display: none;
+  }
+  .mobile{
+    display: flex;
+    height: auto;
+    margin-bottom: 20px;
+    max-width: 312px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main_logo{
+    margin-bottom: 20px;
+  }
+  .intro_left_bar{
+width: 100%;
+  }
+  .header_logo_pic{
+height: auto !important;
+  }
+  .intro_right_bar{
+    display: none;
+  }
+  .intro{
+    padding-top: 80px;
+  }
+.about_section, .goal_section{
+    flex-flow: column;
+    margin-bottom: 25px;
+}
+.goal_section_left{
+    justify-content: flex-start;
+}
+.about_section_right, .goal_section_right {
+    margin-left: 0px;
+    margin-top: 15px;
+    width: 100%;
+    }
+    .for_slider{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .slider{
+        border-radius: 0px;
+    }
+    .footer_block{
+        display: grid;
+        grid-template-columns: 300px;
+        justify-content: space-around;
+        gap: 30px 0px;
+            }
+            .footer_block_social img{
+                margin-right: 25px;
+                margin-bottom: 0px;
+            }
+            .footer_block_logo img{
+                width: 100%;
+                height: auto;
+            }
+            .email_saveua{
+                font-size: 14px;
+            }
+            .footer_block_social_email{
+                justify-content: flex-start;
+            }
+            footer{
+                overflow: hidden;
+            }
+            .success{
+                border-radius: 0px 0px 20px 20px;
+            }
+            .donate_left_box{
+                width: 100%;
+            }
+  }
+  @media screen and (max-width: 500px) {
+    .about_section_left1, .about_section_left2, .goal_section_left1, .goal_section_left2, .our_help_section_left2, .our_help_section_left1{
+        font-size: 22px;
+    }
+    .success li::before{
+        min-height: 35px;
+        min-width: 35px;
+        max-height: 35px;
+        max-width: 35px;
+    }
+    .wrapper h2{
+        font-size: 28px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .team{
+        padding-top:60px;
+    }
+    .our_help_section_left1{
+        width: 128px !important;
+        height: 83px;
+    }
+    .our_help_section_left2{
+        padding-top: 0px;
+        display: flex;
+        place-items: center;
+        width: auto;
+    }
+    .our_help_section_img{
+        grid-template-columns: 130px 130px;
+    }
+    .our_help_section_item p{
+        font-size: 20px;
+    }
+    .slider_content_right{
+        height: 250px;
+        width: 100%;
+    }
+    .slider_content_left_main_text{
+        font-size: 18px;
+    }
+    #slideshow img{
+        border-radius: 10px;
+    }
+    .slider_content_right{
+        position: relative;
+        display: flex;
+        width: 100%;
+    }
+    .slideshow{
+        display: flex;
+        width: 100%;
+    }
+    .slider_content_button{
+margin-top: 20px;
+    }
+    .success li{
+gap:20px !important;
+    }
+    .success li{
+        font-size: 16px;
+    }
+    .team_info_right p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .team_info_img{
+        margin-bottom: 20px;
+    }
+    .team .wrapper{
+        margin:0px !important;
+        padding: 0px !important;
+    }
+    .document_block{
+        flex-flow: column;
+        gap: 20px 0px;
+    }
+    .team_main_block{
+        margin-top: 40px;
+    }
+    .document{
+        margin:0px !important;
+        padding:0px !important;
+    }
+    #tiny_slider{
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+    .tiny_slider_container{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .tiny_slider_slide_img{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .email_form{
+        margin-top: 0px;
+    }
+    .donate_left_box{
+        border-radius: 40px;
+    }
+    .donate_left_box_content h2{
+        font-size: 22px;
+    }
+    .donate_left_box_button a{
+        font-size: 22px;
+    }
+    .donate_left_box_button{
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .donate_left_box_content h2{
+        margin-left: 0px;
+    }
+    .donate_left_box_content{
+        width: 100%;
+    display: flex;
+    flex-flow: column;
+    place-content: center;
+    place-items: center;
+    }
+    .kanevalustext{
+        padding:0px;
+    }
+    .crypto_container_item_text{
+        font-size: 14px;
+    }
+    .crypto_container_item{
+        font-size: 16px;
+    }
+    .crypto_container_item_left{
+        padding: 0px 10px;
+    }
+    .crypto_container_item_text{
+        padding-left: 8px;
+        padding-right: 40px;
+    }
+    .crypto_container_item_left img{
+        width: 30px;
+    }
+  }
+  @media screen and (max-width: 430px) {
+    .wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    
+    }
+    .team_instagram{
+        bottom: -20px;
+    right: 10px;
+    }
+    .slider{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .wrapperSlider{
+        margin:0px !important;
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+    .about_section_left1,  .goal_section_left1{
+    width: 108px;
+    }
+    .about_section_right, .goal_section_right{
+        font-size: 16px;
+        line-height: 23px;
+    }
+   .email_form{
+    padding:0px
+   }
+   .email_form p{
+    font-size: 18px;
+   }
+   .send_email_button{
+    margin-left: auto;
+    margin-right: auto;
+   }
+   footer{
+    padding-left: 15px;
+    padding-right: 15px;
+   }
+   .main2 .wrapper{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+   }
+   .donate_left_box_content h2{
+    font-size: 20px;
+   }
+   .donate_left_box{
+    border-radius: 20px;
+   }
+   .donate_right_box{
+    padding-left: 15px;
+    padding-right: 15px;
+   }
+   .donate_right_box_content{
+    font-size: 20px;
+    margin-top: 50px;
+   }
+  }
+  @media screen and (max-width: 400px) {
+.vepuvakus-davnusen{
+    padding: 20px 0px;
+}
+  .crypto_container_item_text p{
+width: 180px;
+font-size: 16px;
+
+  }
+}
+
+  @media screen and (max-width: 360px) {
+    .our_help_section_img{
+        grid-template-columns: 120px 120px;
+    }
+    .our_help_section_item p{
+        font-size: 18px;
+    }
+    .crypto_container_item_text p{
+        width: 140px;
+        font-size: 16px;
+        
+          }
+  }
+  .tns-nav button{
+    flex: 0 1 auto;
+    box-sizing: content-box;
+    width: 20px;
+    height: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: #2860CA;
+    background-clip: padding-box;
+    cursor: pointer;
+    border:none;
+
+  }
+  .tns-nav{
+    display: flex;
+    place-self: center;
+    margin-top: 20px;
+  }
+  .tns-outer{
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  @media screen and (max-width: 350px) {
+    .header_nav_donate #select__wrapper{
+        margin-right: 55px !important;
+    }
+    #select__wrapper{
+        margin-right: 55px !important;
+    }
+      }  
+
+    .footer_block_donate{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    
+    }
+    .footer_donate .wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }

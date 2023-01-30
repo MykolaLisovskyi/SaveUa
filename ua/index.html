@@ -1,0 +1,756 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:https="http://www.w3.org/1999/xhtml" lang="ua">
+
+<head>
+  <meta charset="utf-8">
+  <title>SAVE UA</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/responsive.css">
+<link rel="stylesheet" href="../css/humburger.css">
+  <meta name="theme-color" content="#fafafa">
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="../css/tinySlider.css"/>
+  <script src="../js/tinySlider.js"></script>
+
+
+  <link rel="stylesheet" href="../js/assets/css/itc-slider.css">
+  <!-- JavaScript -->
+  <script src="../js/assets/js/itc-slider.js"></script>
+
+
+</head>
+
+<body>
+ <header class="header">
+  <div class="header_nav_wrapper_donate">
+    <div class="header_nav_wrapper">
+
+      <nav class="header_nav">
+
+        <ul class="header_list">
+          <li class="header_item_grid">
+            #Aidtoukraine
+          </li>
+          <li class="header_item">
+            <a href="../ua/index.html#about" class="header_link">Про наc</a>
+          </li>
+          <li class="header_item">
+            <a href="../ua/index.html#success" class="header_link">Звіт</a>
+          </li>
+          <li class="header_item">
+            <a href="../ua/index.html#teamdId" class="header_link">Наша команда  </a>
+          </li>
+          <li class="header_item">
+            <a href="../ua/index.html#email_block" class="header_link">Зв’яжіться з нами</a>
+          </li>
+          <li class="header_item_lang">
+
+            <div id="select__wrapper">
+              <button id="select__buttons">
+                <img src="../img/svg/select_icon_ua.svg"/>
+                <div id="pointer-down" class="pointer-down"></div>
+              </button>
+              <ul id="select__languages">
+                <a href="../eng/index.html">
+                  <img src="../img/svg/select_icon_eng.svg"/>
+                </a>
+              </ul>
+            </div>
+            <div class="menu">
+              <content>
+                <input id="hamburger" class="hamburger" type="checkbox" />
+                <label class="hamburger" for="hamburger">
+                  <i></i>
+                  <text>
+                  </text>
+                </label>
+                <section class="drawer-list" id="menu2">
+                  <ul>
+                    <input id="hamburger" class="hamburger" type="checkbox" />
+
+    
+      
+                    <li><a id="yakor" href="../ua/index.html#about" onclick="document.getElementById('hamburger').checked=false;">Про нас</a></li>
+                    <li><a id="yakor" href="../ua/index.html#success" onclick="document.getElementById('hamburger').checked=false;">Звіт</a></li>
+                    <li><a id="yakor" href="../ua/index.html#teamdId" onclick="document.getElementById('hamburger').checked=false;">Наша команда</a></li>
+                    <li><a id="yakor" href="../ua/index.html#email_block" onclick="document.getElementById('hamburger').checked=false;">Зв'яжіться з нами</a></li>
+                    <li>
+                      <div class="header_item_donate donate_mob">
+                        <div class="header_item_donate_button">
+                          <a href="donate.html" class="header_item_donate_button_link">Донат</a>
+                        </div>
+                      </div>
+                    </li>
+                   
+      
+                  </ul>
+      
+      
+      
+      
+      
+      
+      
+                </section>
+              </content>
+            </div>
+
+
+            <script defer>
+              const select = document.getElementById('select__languages');
+              const button = document.getElementById('select__buttons');
+              button.addEventListener('click', () => {
+                event.stopPropagation();
+                select.classList.toggle('select__visible');
+              });
+              window.addEventListener('click', (event) => {
+                select.classList.contains('select__visible') && select.classList.remove('select__visible');
+              });
+            </script>
+
+          </li>
+
+          <div class="header_item_donate donate_pc">
+            <div class="header_item_donate_button">
+              <a href="donate.html" class="header_item_donate_button_link">Донат</a>
+            </div>
+          </div>
+
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="main">
+  <section class="intro_main">
+    <div class="intro">
+      <div class="wrapper">
+        <div class="wrapper_intro_bar">
+          <div class="intro_left_bar">
+            <img src="../img/logo.png" class="main_logo">
+            <!--          <h1 class="intro_title">SAVE UA</h1>-->
+            <div class="header_logo_pic mobile" >
+              <img src="../img/svg/header_logo_pic.png">
+            </div>
+            <p class="intro_subtitle">
+              Ми оперативно та безперервно надаємо першу необхідну допомогу незахищеним жінкам, дітям, пенсіонерам та
+              тваринам.
+            </p>
+          </div>
+          <div class="intro_right_bar">
+            <div class="header_logo">
+              <div class="header_logo_pic pc" >
+                <img src="../img/svg/header_logo_pic.png">
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="help_fond_button_section">
+          <div class="help_fond_button">
+            <a href="donate.html" class="help_fond_button_link">Допомогти фонду</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <!-- about start-->
+  <section class="about_main">
+    <div class="about" id="about">
+      <div class="wrapper">
+
+        <div class="about_section">
+          <div class="about_section_left">
+            <div class="about_section_left1"> Про</div>
+            <div class="about_section_left2"> нас</div>
+          </div>
+          <div class="about_section_right">
+            Благодійний Фонд “Save UA” з перших днів війни активно допомагає цивільним українцям, забезпечуючи їх їжею та
+            засобами гігієни.
+            Також організація підтримує госпіталі, волонтерів та громадян, які стали жертвами російської агресії в
+            Україні.
+          </div>
+        </div>
+
+        <div class="goal_section">
+          <div class="goal_section_left">
+            <div class="goal_section_left1"> наша</div>
+            <div class="goal_section_left2"> Ціль</div>
+          </div>
+          <div class="goal_section_right">
+            Ми створили фонд, щоб небайдужі люди з усього світу могли зробити свій внесок у допомогу українському народу.
+            Ми
+            особисто закуповуємо всі необхідні ресурси, доставляємо людям, а потім надсилаємо звіт нашим ангелам, які
+            займаються волонтерською роботою.
+          </div>
+        </div>
+
+        <div class="our_help_section">
+          <div class="our_help_section_left1">кому</div>
+          <div class="our_help_section_left2">ми допомагаємо:</div>
+        </div>
+
+        <div class="our_help_section_img">
+
+          <div class="our_help_section_item">
+            <img src="../img/svg/help_pets.png" alt="help pets">
+            <p>Тваринам</p>
+          </div>
+
+          <div class="our_help_section_item">
+            <img src="../img/svg/help_vpo.png" alt="help vpo">
+            <p>ВПО</p>
+          </div>
+
+          <div class="our_help_section_item">
+            <img src="../img/svg/help_pensioner.png" alt="help pensioner">
+            <p>пенсіонерам</p>
+          </div>
+
+          <div class="our_help_section_item">
+            <img src="../img/svg/help_hospital.png" alt="help hospital">
+            <p>лікарням</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- about end-->
+  
+  <!-- slider start -->
+  <div class="for_slider">
+
+  <section class="slider">
+    <div class="wrapper wrapperSlider">
+      <div class="slider_content">
+
+        <div class="slider_content_left">
+          <h2>save ua</h2>
+          <div class="slider_content_left_main_text">Ми оперативно та безперервно надаємо першу необхідну допомогу
+            незахищенним жінкам, дітям та переселенцям, тому нам потрібна підтримка у закупівлі ліків, теплого одягу,
+            підгузників, продуктів харчування та логістиці.
+          </div>
+        </div>
+
+        <div class="slider_content_right">
+
+          <div id="slideshow">
+            <div>
+              <img src="../img/slider/1.jpg">
+            </div>
+            <div>
+              <img src="../img/slider/2.JPG">
+            </div>
+            <div>
+              <img src="../img/slider/3.JPG">
+            </div>
+            <div>
+              <img src="../img/slider/4.JPG">
+            </div>
+            <div>
+              <img src="../img/slider/5.JPG">
+            </div>
+            <div>
+              <img src="../img/slider/6.jpg">
+            </div>
+          </div>
+          <script>
+            $("#slideshow > div:gt(0)").hide();
+
+            setInterval(function () {
+              $('#slideshow > div:first')
+                .fadeOut(1000)
+                .next()
+                .fadeIn(1000)
+                .end()
+                .appendTo('#slideshow');
+            }, 5000);
+          </script>
+
+        </div>
+
+      </div>
+
+      <div class="slider_content_button">
+        <div class="help_fond_button">
+          <a href="donate.html" class="help_fond_button_link">Допомогти фонду</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>
+  <!-- slider end -->
+
+  <!-- success start -->
+  <section class="success">
+    <div class="success_wrapper">
+      <div class="success_list_header" id="success">
+        <h3>за час своєї діяльності ми :</h3>
+      </div>
+      <div class="success_list">
+        <div class="success_list_block1">
+          <ul>
+            <li>Ми надали жителям Чернігівщини близько 300 тонн гуманітарної допомоги</li>
+            <li>Організували два благодійні фестивалі у Відні разом з KOL Maximiliana</li>
+            <li>Ми пожертвували $4500 для 9-річного хлопчика, який постраждав від ракети</li>
+            <li>Доставлено більше 400 пакетів допомоги</li>
+          </ul>
+        </div>
+        <div class="success_list_block2">
+          <ul>
+            <li>Забезпечили 748 кг м’яса для потребуючих</li>
+            <li>Надали більше 20 тонн допомоги тваринам</li>
+            <li>Надали понад 100 пакетів допомоги дітям</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- success end -->
+
+  <!-- team start -->
+  <section class="team" id="teamdId">
+    <div class="wrapper">
+      <h2>Наша команда</h2>
+      <div class="team_main_block">
+
+        <div class="team_main_block" data-slider="itc-slider" data-loop="true" data-autoplay="true"
+             data-interval="20000" data-refresh="true">
+          <div class="slider__container">
+            <div class="slider__wrapper">
+              <div class="slider__items">
+                <div class="slider__item">
+                  <!-- Начало контента 1 слайда -->
+                  <div class="team_info">
+                    <div class="team_info_left">
+                      <div class="team_info_img">
+                        <img src="../img/team/img.Valia1.jpg">
+                      </div>
+                      <h2 class="team_info_name">Валентина <br> Малащенко </h2>
+                    </div>
+                    <div class="team_info_right">
+                      <p>CEO. Випускниця НаУКМА, фінансовий аналітик, працює у сфері логістики та блокчейну.
+
+               <span>    «Я впевнена, що ми переможемо, бо правда на нашій стороні. Але для цього український народ має триматися разом та допомагати один одному»</span>     
+                      </p>
+                    </div>
+                  </div>
+                  <div class="team_instagram">
+                    <a href="https://www.instagram.com/__malavita" target="_blank">
+                      <img src="../img/team/instagram_icon_team.svg">
+                    </a>
+                  </div>
+                  <!-- Конец контента 1 слайда -->
+                </div>
+                <div class="slider__item">
+                  <!-- Начало контента 2 слайда -->
+                  <div class="team_info">
+                    <div class="team_info_left">
+                      <div class="team_info_img">
+                        <img src="../img/team/img.Julia.jpg">
+                      </div>
+                      <h2 class="team_info_name">Юлія <br> Карзанова <br> Немировська
+                      </h2>
+                    </div>
+                    <div class="team_info_right">
+                      <p>
+                        Aid Coordinator in Chernihiv. Міжнародний креативний інфлуенсер, модель та художниця. 
+
+                        <span>
+                          «З перших днів війни я єдина освітлювала страшні події Чернігова світовій спільноті англійською мовою з метою привернути їх увагу».
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="team_instagram">
+                    <a href="https://instagram.com/femaleonacid?igshid=YmMyMTA2M2Y=" target="_blank">
+                      <img src="../img/team/instagram_icon_team.svg">
+                    </a>
+                  </div>
+                  <!-- Конец контента 2 слайда -->
+                </div>
+                <div class="slider__item">
+                  <!-- Начало контента 3 слайда -->
+                  <div class="team_info">
+                    <div class="team_info_left">
+                      <div class="team_info_img">
+                        <img src="../img/team/img.Karina.jpg">
+                      </div>
+                      <h2 class="team_info_name">Карина <br> Клачик
+                      </h2>
+                    </div>
+                    <div class="team_info_right">
+                      <p>
+                        SMM Specialist. Улюблену справу спрямовує на допомогу своєму народу. 
+<span>«Немає жодного дня, коли б я не сумувала за Україною, за своєю сім’єю і своїм колишнім життям».</span>
+                        
+                       </p>
+                    </div>
+                  </div>
+                  <div class="team_instagram">
+                    <a href="https://instagram.com/karina_ooww?igshid=YmMyMTA2M2Y=" target="_blank">
+                      <img src="../img/team/instagram_icon_team.svg">
+                    </a>
+                  </div>
+                  <!-- Конец контента 3 слайда -->
+                </div>
+
+                <div class="slider__item">
+                  <!-- Начало контента 4 слайда -->
+                  <div class="team_info">
+                    <div class="team_info_left">
+                      <div class="team_info_img">
+                        <img src="../img/team/img.Daria.png">
+                      </div>
+                      <h2 class="team_info_name">Дарина <br> Рабінова
+
+                      </h2>
+                    </div>
+                    <div class="team_info_right">
+                      <p>
+                        Co-founder. Більше 5 років досвіду у сфері FinTech та Web3. 
+                        З перших днів війни активно допомагала постраждалим українцям, а згодом стала однією із співзасновниць благодійної організації.
+                        <span>  «Моїм єдиним домом завжди залишиться мій рідний Київ, за яким я дуже сумую і куди маю надію скоро повернутися».</span>
+                        Працює в Binance.
+
+                      
+                      </p>
+                    </div>
+                  </div>
+                  <div class="team_instagram">
+                    <a href="https://instagram.com/rabinova?igshid=YmMyMTA2M2Y=" target="_blank">
+                      <img src="../img/team/instagram_icon_team.svg">
+                    </a>
+                  </div>
+                  <!-- Конец контента 4 слайда -->
+                </div>
+
+                <div class="slider__item">
+                  <!-- Начало контента 5 слайда -->
+                  <div class="team_info">
+                    <div class="team_info_left">
+                      <div class="team_info_img">
+                        <img src="../img/team/img.Vlada.jpg">
+                      </div>
+                      <h2 class="team_info_name">Владислава <br> Шатковська
+ 
+                      </h2>
+                    </div>
+                    <div class="team_info_right">
+                      <p>
+                        Fundraising manager, co-founder. Працює в IT- компанії та займається консультуванням стартапів у сфері блокчейну. За кілька місяців до війни разом з колегами заснувала фонд з озеленення України. 
+<span>
+  «Війна змусила змінити пріоритети та переформатуватись»
+
+</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="team_instagram">
+                    <a href="https://instagram.com/vladia_daily?igshid=YmMyMTA2M2Y=" target="_blank">
+                      <img src="../img/team/instagram_icon_team.svg">
+                    </a>
+                  </div>
+                  <!-- Конец контента 5 слайда -->
+                </div>
+
+                <div class="slider__item">
+                  <!-- Начало контента 6 слайда -->
+                  <div class="team_info">
+                    <div class="team_info_left">
+                      <div class="team_info_img">
+                        <img src="../img/team/img.Valeria.jpg">
+                      </div>
+                      <h2 class="team_info_name">Валерія <br> Губар
+                      </h2>
+                    </div>
+                    <div class="team_info_right">
+                      <p>
+                       
+Partnership Manager. Студентка Віденського економічного університету,
+на данний момент працює у KPMG.
+<span>«Навіть перебуваючи у Австрії, я не могла залишатися осторонь. Україна - це частина мого серця, моя домівка». </span>
+
+                      </p>
+                    </div>
+                  </div>
+                  <div class="team_instagram">
+                    <a href="https://instagram.com/valeri.lero4ka?igshid=YmMyMTA2M2Y=" target="_blank">
+                      <img src="../img/team/instagram_icon_team.svg">
+                    </a>
+                  </div>
+                  <!-- Конец контента 6 слайда -->
+                </div>
+                <div class="slider__item">
+                  <!-- Начало контента 7 слайда -->
+                  <div class="team_info">
+                    <div class="team_info_left">
+                      <div class="team_info_img">
+                        <img src="../img/team/sofiya.png">
+                      </div>
+                      <h2 class="team_info_name">СОФІЯ  <br> ПІХ
+                      </h2>
+                    </div>
+                    <div class="team_info_right">
+                      <p>
+                        Web-designer. 
+<span>                         «Часто буваю на зустрічах Українців у Відні, де ми один одного підтримуємо морально та психологічно, а також тут волонтерю та допомагаю у проведенні мітингів, акцій та масштабних виставок».
+</span>                        
+                        
+
+                      </p>
+                    </div>
+                  </div>
+                  <div class="team_instagram">
+                    <a href="https://www.instagram.com/just_sonya.s/?igshid=NDk5N2NlZjQ=" target="_blank">
+                      <img src="../img/team/instagram_icon_team.svg">
+                    </a>
+                  </div>
+                  <!-- Конец контента 7 слайда -->
+                </div>
+              </div>
+            </div>
+            <!--                    <button class="slider__control" data-slide="prev"></button>-->
+            <!--                    <button class="slider__control" data-slide="next"></button>-->
+            <ol class="slider__indicators">
+              <li data-slide-to="0"></li>
+              <li data-slide-to="1"></li>
+              <li data-slide-to="2"></li>
+              <li data-slide-to="3"></li>
+              <li data-slide-to="4"></li>
+              <li data-slide-to="5"></li>
+              <li data-slide-to="6"></li>
+
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- team end -->
+
+
+  
+  <!-- document start -->
+  <section class="document">
+    <div class="wrapper">
+
+      <div class="for_document_block">
+        <h2>ПОДЯКИ</h2>
+
+        <div class="document_block">
+        <a href="#Bestätigung-SaveUA-_1_.png" class="small">
+          <img src="../img/Bestätigung-SaveUA-_1_.png">
+        </a>
+        <a id="Bestätigung-SaveUA-_1_.png" href="#" class="full">
+          <img src="../img/Bestätigung-SaveUA-_1_.png">
+
+        </a>
+        <a href="#Bestätigung-Valentyna-Malashchenko.png" class="small">
+          <img src="../img/Bestätigung-Valentyna-Malashchenko.png">
+        </a>
+        <a id="Bestätigung-Valentyna-Malashchenko.png" href="#" class="full">
+          <img src="../img/Bestätigung-Valentyna-Malashchenko.png">
+        </a>
+      </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- document end -->
+
+
+ <!-- slider_info start -->
+
+ <section id="tiny_slider">
+  <div class="tiny_slider_container">
+    <div class="tiny_slider_subcontainer">
+      <div class="tiny_slider_wrapper">
+        <div class="my_tiny_slider">
+
+          <div class="tiny_slider_slide">
+            <div class="tiny_slider_slide_img">
+              <a href="https://www.instagram.com/p/CjVW4-NK0H1/?igshid=YmMyMTA2M2Y%3D" target="_blank">
+                <img src="../img/IMG_6794.PNG">
+              </a>
+            </div>
+          </div>
+
+          <div class="tiny_slider_slide">
+            <div class="tiny_slider_slide_img">
+              <a href="https://www.instagram.com/reel/Ciu3fuQKG5N/?igshid=YmMyMTA2M2Y%3D" target="_blank">
+                <img src="../img/IMG_5725.PNG">
+              </a>
+            </div>
+          </div>
+
+          <div class="tiny_slider_slide">
+            <div class="tiny_slider_slide_img">
+              <a href="https://www.instagram.com/p/CiaZhMFKFOa/?igshid=YmMyMTA2M2Y%3D" target="_blank">
+                <img src="../img/IMG_5003.PNG">
+              </a>
+            </div>
+          </div>
+
+          <div class="tiny_slider_slide">
+            <div class="tiny_slider_slide_img">
+              <a href="https://www.instagram.com/p/Cixpkyir6gr/?igshid=YmMyMTA2M2Y%3D" target="_blank">
+                <img src="../img/IMG_5891.PNG">
+              </a>
+            </div>
+          </div>
+
+          <div class="tiny_slider_slide">
+            <div class="tiny_slider_slide_img">
+              <a href="https://www.instagram.com/reel/CjIL1WQqgDX/?igshid=YmMyMTA2M2Y%3D" target="_blank">
+                <img src="../img/IMG_6044.PNG">
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- slider_info end -->
+
+
+  <!-- email_form start -->
+  <section class="email_form" id="email_block">
+    <div class="wrapper">
+      <div class="email_form_wrapper">
+        <h2>зв’яжіться з нами </h2>
+        <form id="formId">
+
+          <div class="name_block">
+            <div class="firstname">
+              <p>Ім’я</p>
+              <input type="text" class="name" id="firstname" name="firstname" required maxlength="50">
+            </div>
+            <div class="firstname">
+              <p>Прізвище </p>
+              <input type="text" class="name" id="lastname" name="lastname" required maxlength="50"></p>
+            </div>
+          </div>
+          <p>Номер телефону у Messenger (Telegram/Viber/WhatsApp)</p>
+          <input type="tel" class="number" id="phone" name="phone" required><br>
+          <p>Ваше повідомлення</p>
+          <textarea class="message" name="message" id="message" required minlength="10" maxlength="300"></textarea><br>
+          <div class="boxErr">
+            <div id="errorMess"></div>
+            <input class="send_email_button" id="sendMail" type="button" name="submit" value="Надіслати"/>
+          </div>
+
+
+          <!--          <button type="button" class="send_email_button">Надіслати</button>-->
+        </form>
+        <div class="note"></div>
+      </div>
+    </div>
+  </section>
+  <!-- email_form end -->
+
+  <!-- footer start -->
+  <footer>
+    <div class="wrapper">
+      <div class="footer_block" id="footer_block">
+
+        <!--        footer_block_logo start-->
+        <div class="footer_block_logo">
+          <img src="../img/footer_logo.png" class="footer_logo">
+        </div>
+        <!--        footer_block_logo end-->
+
+        <!--        footer_block_social start-->
+        <div class="footer_block_social">
+          <h3>Контакти</h3>
+          <a href="https://www.instagram.com/saveua.fund" target="_blank">
+            <img src="../img/svg/footer_intagram.svg">
+          </a>
+          <a href="https://www.facebook.com/saveua.fund" target="_blank">
+            <img src="../img/svg/footer_facebook.svg">
+          </a>
+          <div class="footer_block_social_email">
+            <img src="../img/svg/footer_gmail.svg">
+            <div class="email_saveua">sendamessage@saveua.fund</div>
+          </div>
+        </div>
+        <!--        footer_block_social end-->
+
+        <!--        footer_block_support start-->
+        <div class="footer_block_support">
+          <h3>підтримати проект</h3>
+          <a href="https://www.paypal.com/donate/?hosted_button_id=97E3X9J84BZRQ" target="_blank">
+            <img src="../img/svg/PayPal.svg">
+          </a>
+
+          <a href="https://send.monobank.ua/jar/5cxRaVNH55" target="_blank">
+            <img src="../img/svg/Monobank.svg">
+          </a>
+
+
+          <div class="footer_block_support_button">
+            <div class="footer_item_donate_button">
+              <a href="donate.html" class="footer_block_support_button_link">Донат</a>
+            </div>
+          </div>
+        </div>
+        <!--        footer_block_support end-->
+
+        <!--        footer_block_address start-->
+        <div class="footer_block_address">
+          "БО “БЛАГОДІЙНИЙ ФОНД “СЕЙВ ЮА” <br> <br>
+          ЄДРПОУ: 44742660<br> <br>
+          Адреса: Україна, 03039, м. Київ, пр. Голосіївський 25 <br> <br>
+          Реєстраційний номер: 100068102000063122
+        </div>
+        <!--        footer_block_address end-->
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+</main>
+
+
+<script src="../js/plugins.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/script.js"></script>
+<script src="formMail.js"></script>
+<script src="../js/tinySliderScript.js"></script>
+
+<script src="../js/index.min.js"></script>
+
+</body>
+
+</html>
